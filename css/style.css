@@ -1,0 +1,230 @@
+body {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+
+.header {
+    padding: 0;
+    margin: 0;
+    background: rgba(4, 219, 223, 1);
+    background: -moz-linear-gradient(left, rgba(4, 219, 223, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(4, 219, 223, 1)), color-stop(100%, rgba(3, 120, 253, 1)));
+    background: -webkit-linear-gradient(left, rgba(4, 219, 223, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    background: -o-linear-gradient(left, rgba(4, 219, 223, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(4, 219, 223, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    background: linear-gradient(to right, rgba(4, 219, 223, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04dbdf', endColorstr='#0378fd', GradientType=1);
+    font-size: 16px;
+    color: white;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.offer {
+    width: 555px;
+    margin-top: 147px;
+}
+
+}
+
+.logo {
+    padding-top: 62px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 403px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin-top: 47px;
+    margin-bottom: 45px;
+    line-height: 1.5em;
+}
+
+.btn {
+    background: #ffd429;
+    font-family: Montserrat;
+    font-weight: 900;
+    display: block;
+    width: 222px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #aa8a0b;
+    color: cornsilk;
+}
+
+h2.what {
+    color: #201b2d;
+    ;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 108px;
+    margin-bottom: 172px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 285px;
+    text-align: center;
+    background: url('../img/free_time.jpg') no-repeat top;
+    padding-top: 75px;
+    padding-bottom: 120px;
+}
+
+.card-title {
+    font-size: 19;
+}
+
+.card-text {
+    font-family: Ubuntu;
+}
+
+.travel {
+    background: url('../img/beach.jpg') no-repeat top;
+}
+
+.rocket {
+    background: url('../img/rocket.jpg') no-repeat top;
+}
+
+.ticket {
+    background: #ecf3f8;
+    padding: 102px 0;
+}
+
+h2.title-form {
+    margin-top: 0;
+    margin-bottom: 57px;
+}
+
+.forms {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 343px;
+    height: 48px;
+    margin-bottom: 15px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+}
+
+.btn-second {
+    width: 343px;
+    height: 56px;
+}
+
+footer {
+    background: #164d7a;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #ffffff;
+    padding: 62px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .logo {
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        width: auto;
+    }
+    .title {
+        width: auto;
+    }
+    .trav {
+        display: block;
+        width: 649px;
+        margin: 50px auto 0;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        width: auto;
+    }
+    footer {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .trav {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .trav {
+        width: 250px;
+    }
+    .text {
+        width: auto;
+    }
+    .form {
+        width: 100%;
+    }
+    .btn-second {
+        width: 100%;
+    }
+}
